@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\bulb1.png" />
+    <Content Include="images\bulb2.png" />
+    <Content Include="index10.html" />
+    <Content Include="index11.html" />
+    <Content Include="index12.html" />
+    <Content Include="index13.html" />
     <Content Include="index3.html" />
     <Content Include="index4.html" />
     <Content Include="index9.html" />
@@ -84,6 +90,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

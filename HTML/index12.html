@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <img id="resim" class="img-fluid img-thumbnail shadow" src="images/bulb1.png" />
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        document.getElementById("resim")
+            .addEventListener("click", function () {
+
+                var src = this.attributes["src"].value;
+
+            if (src.includes("bulb1")) {
+                this.setAttribute("src","images/bulb2.png")
+            }
+            else {
+                this.setAttribute("src","images/bulb1.png")
+            }
+        })
+    </script>
+</body>
+</html>
