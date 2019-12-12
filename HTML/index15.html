@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" /> <!-- Bootstrapi dosya olarak kullanmak istiyorsak böyle kullanıyoruz. Bunu da content dosyası içinden sürükleyip bırakıyoruz.-->
+
+    <script src="Scripts/jquery-3.0.0.min.js"></script> <!-- Jqueryi de aynı şekilde dosya olarak kullanmak istiyorsak Scripts klasöründen bu isimdeki dosyayı sürükleyip bırakıyoruz.-->
+
+    <script>
+        $(document).ready(function () {
+
+            $("#btn-click").click(function () { // id'si btn-click olanı seçmek için #btn-click yazıyoruz. class,tag,type vb diğerleri için farklı yöntemler kullanıyoruz.
+                $("#demo").html("Bilge Adam")
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <p id="demo"></p>
+                <button id="btn-click" class="btn btn-outline-dark">
+                    Click Me !
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
